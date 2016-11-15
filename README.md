@@ -71,7 +71,7 @@ fx-column 为子元素竖向排列
 横向排列:垂直方向的对齐策略:
 
 类名 | 效果 | 原属性
------------- | -------------
+------------ | ------------- | -------------
 fx-row-center | 垂直居中 |  center
 fx-row-top |   顶部对齐 | flex-start
 fx-row-bottom | 底部对齐 | flex-end
@@ -81,7 +81,7 @@ fx-row-baseline | 基线对齐 | baseline
 横向排列:水平方向的对齐策略:
 
 类名 | 效果 | 原属性
------------- | -------------
+------------ | ------------- | -------------         
 fx-row-left | 水平居左 |  flex-star
 fx-row-middle |   水平居中 | center
 fx-row-right | 靠右 | flex-end
@@ -93,7 +93,7 @@ fx-row-space-around | 俩头分布 | baseline
 ps : 覆盖父元素的align-items属性，定义了单独的弹性子元素如何沿着侧轴排列
 
 类名 | 效果 | 原属性
------------- | -------------
+------------ | ------------- | -------------         
 fx-col-center | 垂直居中 |  center
 fx-col-top |   顶部对齐 | flex-start
 fx-col-bottom | 底部对齐 | flex-end
@@ -102,7 +102,7 @@ fx-col-bottom | 底部对齐 | flex-end
 竖向排列:水平方向对齐策略
 
 类名 | 效果 | 原属性
------------- | -------------
+------------ | ------------- | -------------         
 fx-col-left | 水平居左 |  flex-star
 fx-col-right |   水平居中 | center
 fx-col-middle | 水平居右边 | flex-end
