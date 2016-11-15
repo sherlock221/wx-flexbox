@@ -1,0 +1,26 @@
+{
+  "name": "wx-flexbox",
+  "version": "0.0.2",
+  "description": "使用flexbox脚手架工具 很方便的帮助我们实现复杂布局,并且提升了页面代码的可读性.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherlock221/wx-flexbox.git"
+  },
+  "keywords": [
+    "flexbox",
+    "小程序",
+    "微信",
+    "微信小程序",
+    "网格布局"
+  ],
+  "author": "sherlock221b",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sherlock221/wx-flexbox/issues"
+  },
+  "homepage": "https://github.com/sherlock221/wx-flexbox#readme"
+}
