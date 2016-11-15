@@ -58,15 +58,16 @@
 
 
 ####兼容性问题:
-> 1. ios  ok
+  1. ios  ok
   2. android x5内核  ok
   3. 微信小程序 ok
 
 
 ####对齐方式
 对齐方式遵循flexbox的标准
-fx-row 为子元素横向排列
-fx-column 为子元素竖向排列
+
+1. fx-row 为子元素横向排列
+2. fx-column 为子元素竖向排列
 
 横向排列:垂直方向的对齐策略:
 
