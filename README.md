@@ -119,9 +119,8 @@ fx-col-space-around | 俩头分布 | baseline
 col-5 | 5%的宽度 
 col-10 | 10%的宽度 
 col-15 | 15%的宽度
-......
 
-       
+[全部...](./demo/gird.html)       
 
 ### 案例
 
