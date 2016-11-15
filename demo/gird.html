@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>百分比栅格布局</title>
+    <link href="../dist/flex.css" rel="stylesheet" />
+    <style type="text/css">
+
+        .block-1{
+            background: slateblue;
+            padding: 20px;
+        }
+        .block-2{
+            background: silver;
+            padding: 20px;
+        }
+
+        *{
+            box-sizing: border-box;
+        }
+
+
+        view{
+            color: #fff;
+        }
+        .fx-row{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+        <h1 style="text-align: center;">
+            栅格布局展示
+        </h1>
+
+        <view class="fx-row">
+            <view class="block-1 gird-25 ">25%</view>
+            <view class="block-2 fx-auto">auto</view>
+        </view>
+
+        <view class="fx-row">
+            <view class="block-1 gird-50">50%</view>
+            <view class="block-2 gird-50">50%</view>
+        </view>
+
+        <view class="fx-row">
+            <view class="block-1 gird-25">25%</view>
+            <view class="block-1 gird-25">25%</view>
+            <view class="block-1 gird-25">25%</view>
+            <view class="block-1 gird-25">25%</view>
+        </view>
+
+        <view class="fx-row">
+            <view class="block-1 gird-33">33%</view>
+            <view class="block-1 gird-33">33%</view>
+            <view class="block-1 gird-33">33%</view>
+        </view>
+
+        <view class="fx-row">
+            <view class="block-1 gird-20">20%</view>
+            <view class="block-1 gird-20">20%</view>
+            <view class="block-1 gird-20">20%</view>
+            <view class="block-1 gird-20">20%</view>
+            <view class="block-1 gird-20">20%</view>
+        </view>
+
+        <view class="fx-row">
+            <view class="block-1 gird-33">33%</view>
+            <view class="block-2 gird-66">66%</view>
+        </view>
+
+
+        <view class="fx-row">
+            <view class="block-1 gird-25">25%</view>
+            <view class="block-1 gird-25">25%</view>
+            <view class="block-2 gird-50">50%</view>
+        </view>
+
+
+        <view class="fx-row">
+            <view class="block-1 gird-75">75%</view>
+            <view class="block-2 gird-25">25%</view>
+        </view>
+
+        <view class="fx-row">
+            <view class="block-1 gird-80">80%</view>
+            <view class="block-2 gird-20">20%</view>
+        </view>
+
+
+
+</body>
+</html>

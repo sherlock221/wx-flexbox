@@ -1,0 +1,61 @@
+@charset "utf-8";
+/**
+ * sherlock221b
+ * 动画部分常用
+ */
+
+
+//transform 兼容
+@mixin transform($value) {
+  -webkit-transform: $value;
+  transform: $value;
+  -moz-transform: $value;
+  -ms-transform: $value;
+}
+
+//transition 兼容
+@mixin transition($value) {
+  -webkit-transition: $value;
+  transition: $value;
+  -moz-transition: $value;
+  -ms-transition: $value;
+}
+
+//animation 兼容
+@mixin animation($animationName) {
+  -webkit-animation: $animationName;
+  -ms-animation: $animationName;
+  -moz-animation: $animationName;
+  -o-animation: $animationName;
+  animation: $animationName;
+}
+
+
+//key frames 兼容
+@mixin keyframes($animationName) {
+  @-webkit-keyframes #{$animationName} {
+    @content;
+  }
+  @-moz-keyframes #{$animationName} {
+    @content;
+  }
+  @-o-keyframes #{$animationName} {
+    @content;
+  }
+
+  @-ms-keyframes #{$animationName} {
+    @content;
+  }
+
+  @keyframes #{$animationName} {
+    @content;
+  }
+}
+
+//animate mode 兼容
+@mixin  animation-mode($mode){
+  -webkit-animation-fill-mode: $mode !important;
+  -moz-animation-fill-mode: $mode !important;
+  -ms-animation-fill-mode: $mode !important;
+  animation-fill-mode: $mode !important;
+}

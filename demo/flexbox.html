@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伸缩盒子展示</title>
+    <link href="../dist/flex.css" rel="stylesheet" />
+    <style type="text/css">
+
+        .block-1{
+            background: slateblue;
+            padding: 20px;
+        }
+        .block-2{
+            background: silver;
+            padding: 20px;
+        }
+
+        *{
+            box-sizing: border-box;
+        }
+
+
+        view{
+            color: #fff;
+        }
+        .fx-row{
+            margin-bottom: 10px;
+        }
+
+        .fx-wrap .block-1{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+        <h1 style="text-align: center;">
+            伸缩盒子展示
+        </h1>
+
+        <view class="fx-row">
+            <view class="block-1" style="width: 100px;">100px</view>
+            <view class="block-2 fx-auto">auto</view>
+        </view>
+
+        <view class="fx-row">
+            <view class="block-1" style="width: 100px;">100px</view>
+            <view class="block-2 fx-auto">auto</view>
+            <view class="block-1" style="width: 100px;">100px</view>
+        </view>
+
+        <view class="fx-row">
+            <view class="block-2 fx-1">1</view>
+            <view class="block-1 fx-3">3</view>
+        </view>
+
+        <view class="fx-row">
+            <view class="block-2 fx-2">1</view>
+            <view class="block-1 fx-1">2</view>
+        </view>
+
+        <view class="fx-row fx-wrap">
+            <view class="block-1 gird-33">wrap</view>
+            <view class="block-1 gird-33">wrap</view>
+            <view class="block-1 gird-33">wrap</view>
+            <view class="block-1 gird-33">wrap</view>
+            <view class="block-1 gird-33">wrap</view>
+            <view class="block-1 gird-33">wrap</view>
+        </view>
+
+
+</body>
+</html>

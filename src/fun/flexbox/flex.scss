@@ -1,0 +1,262 @@
+@charset "utf-8";
+@import "mixin/flexbox-mixin";
+
+/**
+ * sherlock221b
+ * flexbox布局方式
+ */
+
+
+
+/**
+ * 向从左到右排列（左对齐）
+ * <div class="fx-row"></div>
+ */
+.fx-row{
+  @include flexbox;
+  width: 100%;
+  @include flex-direction(row);
+}
+
+/**
+ * 向从左到右排列（右边对齐）
+ * <div class="fx-row"></div>
+ */
+.fx-row-reverse{
+  @include flexbox;
+  width: 100%;
+  @include flex-direction(row-reverse);
+}
+
+
+
+/**
+ * 纵向从上往下排列（顶对齐）
+ * <div class="fx-column"></div>
+ */
+.fx-column{
+  @include flexbox;
+  width: 100%;
+  @include flex-direction(column);
+}
+
+
+/**
+ * 纵向从上往下排列（底部对齐）
+ * <div class="fx-column"></div>
+ */
+.fx-column-reverse{
+  @include flexbox;
+  width: 100%;
+  @include flex-direction(column-reverse);
+}
+
+
+/**
+ * wrap策略
+ */
+.fx-wrap{
+  @include flex-wrap(wrap);
+}
+
+
+
+/**
+ * 子项目排列
+ * <div class="fx-col"></div>
+ */
+.fx,.fx-1,.fx-2,.fx-3,.fx-4,.fx-5,.fx-6,.fx-7,.fx-8,.fx-9{
+  display: block;
+  width: 100%;
+}
+
+
+/** auto(1 1 auto) **/
+.fx-auto {
+  @include flex(auto);
+}
+.fx-none {
+  @include flex(none);
+}
+
+.fx{ @include flex(1)};
+.fx-1{  @include flex(1);}
+.fx-2{  @include flex(2);}
+.fx-3{  @include flex(3);}
+.fx-4{  @include flex(4);}
+.fx-5{  @include flex(5);}
+.fx-6{  @include flex(6);}
+.fx-7{  @include flex(7);}
+.fx-8{  @include flex(8);}
+.fx-9{  @include flex(9);}
+
+
+
+
+/**
+ * 栅格布局
+ */
+
+.gird-5{
+  width: 5%;
+}
+.gird-10{
+  width: 10%;
+}
+.gird-15{
+  width: 15%;
+}
+.gird-20{
+  width: 20%;
+}
+.gird-25{
+  width: 25%;
+}
+.gird-30{
+  width: 30%;
+}
+.gird-33{
+  width: 33.333333333333336%;
+}
+.gird-40{
+  width: 40%;
+}
+.gird-50{
+  width: 50%
+}
+.gird-60{
+  width: 60%
+}
+.gird-65{
+  width: 65%
+}
+.gird-66{
+  width: 66.66666666666666%;
+}
+.gird-70{
+  width: 70%
+}
+.gird-75{
+  width: 75%
+}
+.gird-80{
+  width: 80%
+}
+.gird-85{
+  width: 85%
+}
+.gird-90{
+  width: 90%
+}
+.gird-95{
+  width: 95%
+}
+.gird-100{
+  width: 100%
+}
+
+
+
+
+/**
+ * 垂直方向
+ * 子元素沿着侧轴排列方式
+ * align-items : flex-start | flex-end | center | baseline | stretch;
+ */
+.fx-row-top {
+  @include align-items(flex-start);
+}
+.fx-row-bottom {
+  @include align-items(flex-end);
+}
+.fx-row-center {
+  @include align-items(center);
+}
+.fx-row-stretch {
+  @include align-items(stretch);
+}
+.fx-row-baseline {
+  @include align-items(baseline);
+}
+
+
+/**
+ * 水平方向
+ * 子元素沿着主轴排列方式
+ * justify-content: flex-start | flex-end | center | space-between | space-around;
+ */
+.fx-row-left{
+  @include justify-content(flex-star);
+}
+.fx-row-middle{
+  @include justify-content(center);
+}
+.fx-row-right{
+  @include justify-content(flex-end);
+}
+.fx-row-space-between{
+  @include justify-content(space-between);
+}
+.fx-row-space-around{
+  @include justify-content(space-around);
+}
+
+
+
+/**
+ * 覆盖父元素的align-items属性，定义了单独的弹性子元素如何沿着侧轴排列
+ */
+.fx-col-top {
+  @include align-self(flex-start);
+}
+.fx-col-bottom {
+  @include align-self(flex-end);
+}
+.fx-col-center {
+  @include align-self(center);
+}
+
+
+.fx-col-left {
+  @include align-content(flex-start);
+}
+.fx-col-right {
+  @include align-content(flex-end);
+}
+.fx-col-middle {
+  @include align-content(center);
+}
+.fx-col-space-between{
+  @include align-content(space-between);
+}
+.fx-col-space-around{
+  @include align-content(space-around);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
