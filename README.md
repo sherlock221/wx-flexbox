@@ -58,9 +58,9 @@
 
 
 ####兼容性问题:
-> ios  ok
-  android x5内核  ok
-  微信小程序 ok
+> 1. ios  ok
+  2. android x5内核  ok
+  3. 微信小程序 ok
 
 
 ####对齐方式
